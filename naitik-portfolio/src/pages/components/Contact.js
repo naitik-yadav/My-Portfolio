@@ -78,7 +78,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="section-padding relative overflow-hidden bg-white dark:bg-black">
+    <section id="contact" className="section-padding relative overflow-hidden bg-white">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -112,7 +112,7 @@ const Contact = () => {
           >
             Get in touch
           </motion.span>
-          <h2 className={`heading-2 ${darkMode ? 'text-white' : 'text-gray-900'} mb-4`}>
+          <h2 className={`heading-2 ${darkMode ? 'text-black' : 'text-gray-900'} mb-4`}>
             Contact Me
           </h2>
           <p className={`${darkMode ? 'text-gray-400' : 'text-gray-500'} max-w-2xl mx-auto mb-4`}>
@@ -129,7 +129,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className={`heading-3 ${darkMode ? 'text-white' : 'text-gray-900'} mb-4`}>
+            <h3 className={`heading-3 ${darkMode ? 'text-black' : 'text-gray-900'} mb-4`}>
               Let's Connect
             </h3>
             <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} mb-8 leading-relaxed`}>
@@ -174,7 +174,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div>
-              <h4 className={`text-lg font-semibold ${darkMode ? 'text-white' : 'text-gray-900'} mb-4 flex items-center gap-2`}>
+              <h4 className={`text-lg font-semibold ${darkMode ? 'text-black' : 'text-gray-900'} mb-4 flex items-center gap-2`}>
                 <MessageSquare size={18} className="text-orange-500" />
                 Connect with me
               </h4>

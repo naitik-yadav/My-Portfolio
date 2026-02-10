@@ -18,7 +18,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="section-padding relative overflow-hidden bg-white dark:bg-black">
+    <section id="about" className="section-padding relative overflow-hidden bg-white">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -52,7 +52,7 @@ const About = () => {
           >
             Get to know me
           </motion.span>
-          <h2 className={`heading-2 ${darkMode ? 'text-white' : 'text-gray-900'} mb-4`}>
+          <h2 className={`heading-2 ${darkMode ? 'text-black' : 'text-gray-900'} mb-4`}>
             About Me
           </h2>
           <div className="w-24 h-1 mx-auto rounded-full bg-gradient-to-r from-orange-500 to-orange-400"></div>
@@ -67,7 +67,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className={`heading-3 ${darkMode ? 'text-white' : 'text-gray-900'} mb-6`}>
+            <h3 className={`heading-3 ${darkMode ? 'text-black' : 'text-gray-900'} mb-6`}>
               Results-driven Software Developer
             </h3>
             <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} mb-4 leading-relaxed`}>

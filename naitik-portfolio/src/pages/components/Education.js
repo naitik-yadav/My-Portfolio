@@ -35,7 +35,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className={`section-padding ${darkMode ? 'bg-slate-900/50' : 'bg-gray-50'} relative overflow-hidden`}>
+    <section id="education" className={`section-padding ${darkMode ? 'bg-slate' : 'bg-gray-50'} relative overflow-hidden`}>
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -69,7 +69,7 @@ const Education = () => {
           >
             Academic background
           </motion.span>
-          <h2 className={`heading-2 ${darkMode ? 'text-white' : 'text-gray-900'} mb-4`}>
+          <h2 className={`heading-2 ${darkMode ? 'text-black' : 'text-gray-900'} mb-4`}>
             Education
           </h2>
           <p className={`${darkMode ? 'text-gray-400' : 'text-gray-500'} max-w-2xl mx-auto mb-4`}>
