@@ -1,11 +1,12 @@
 import Head from "next/head";
 import "../styles/globals.css";
+import { ThemeProvider } from "../context/ThemeContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function App({ Component, pageProps }) {
   return(
-    <>
+    <ThemeProvider>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -14,7 +15,7 @@ export default function App({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </ThemeProvider>
   )
 }
 

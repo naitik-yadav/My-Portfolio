@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -26,7 +25,6 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen bg-white">
-        <Navbar />
         <Hero />
         <About />
         <Skills />
